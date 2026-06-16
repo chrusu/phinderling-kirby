@@ -50,20 +50,23 @@ img {
 .layout {
   display: flex;
   min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* Sidebar */
 .sidebar {
   width: var(--sidebar-width);
+  min-width: var(--sidebar-width);
   min-height: 100vh;
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  position: fixed;
-  left: 0;
+  position: sticky;
   top: 0;
-  bottom: 0;
+  align-self: flex-start;
   overflow-y: auto;
+  max-height: 100vh;
 }
 
 .site-header {
@@ -141,7 +144,6 @@ img {
 /* Content Area */
 .content {
   flex: 1;
-  margin-left: var(--sidebar-width);
   padding: 2rem;
   min-height: 100vh;
 }
