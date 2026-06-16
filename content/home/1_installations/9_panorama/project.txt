@@ -2,7 +2,9 @@ Title: Panorama
 
 ----
 
-Text:  
+Text:
+
+ 
 
  
 
@@ -32,3 +34,4 @@ Year: 2013
 
 ----
 
+Uuid: mp6pqfni67qwe5y6

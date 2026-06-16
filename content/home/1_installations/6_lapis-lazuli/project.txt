@@ -2,7 +2,9 @@ Title: Lapis lazuli
 
 ----
 
-Text:  
+Text:
+
+ 
 
 Pierre semi-précieuse rare, d’un bleu très intense, pigment recherché, provient essentiellement d’Afghanistan,
 
@@ -32,3 +34,4 @@ Year: 2026
 
 ----
 
+Uuid: d9ipyu84xdnrre3k

@@ -2,7 +2,9 @@ Title: Horizons
 
 ----
 
-Text: Sur les parois de tout le pourtour de la salle, une longue bande de papier calque. Un dessin très fin, presque une ligne horizontale, au crayons de couleurs, représente une lointaine ligne d'horizon.
+Text:
+
+Sur les parois de tout le pourtour de la salle, une longue bande de papier calque. Un dessin très fin, presque une ligne horizontale, au crayons de couleurs, représente une lointaine ligne d'horizon.
 
 Des loupes sont à disposition pour l'observer.
 
@@ -14,3 +16,4 @@ Year: 2013
 
 ----
 
+Uuid: xfqisq4oqoonvuu0

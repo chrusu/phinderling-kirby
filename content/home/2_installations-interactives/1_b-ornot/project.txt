@@ -2,7 +2,9 @@ Title: B ORNOT
 
 ----
 
-Text:  
+Text:
+
+ 
 
 Projection : image énigmatique d’un "personnage", dramatique, shakespearien.
 
@@ -24,3 +26,4 @@ Year: 2022
 
 ----
 
+Uuid: rizmh5njtybbion0

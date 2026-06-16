@@ -1,18 +1,46 @@
 title: Site
-columns:
-  - width: 1/2
+
+tabs:
+  content:
+    label: Contenu
+    columns:
+      - width: 1/2
+        sections:
+          categories:
+            label: Catégories
+            type: pages
+            parent: site.find('home')
+            template: category
+            layout: list
+            info: "{{ page.children.listed.count }} projets"
+      - width: 1/2
+        sections:
+          allprojects:
+            label: Tous les projets
+            type: pages
+            parent: site.find('home')
+            templates:
+              - project
+            layout: cards
+            size: tiny
+            image:
+              cover: true
+            search: true
+
+  settings:
+    label: Paramètres
     fields:
       title:
         label: Titre du site
         type: text
-      description:
-        label: Description
-        type: textarea
-  - width: 1/2
-    fields:
+        required: true
       author:
         label: Artiste
         type: text
       email:
         label: Email
         type: email
+      description:
+        label: Description
+        type: textarea
+        help: Pour le SEO

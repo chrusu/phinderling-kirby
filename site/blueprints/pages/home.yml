@@ -1,17 +1,25 @@
 title: Accueil
+icon: home
+
 options:
   changeSlug: false
   changeStatus: false
   delete: false
+
 columns:
   - width: 2/3
-    fields:
-      intro:
-        label: Introduction
-        type: textarea
+    sections:
+      categories:
+        label: Catégories
+        type: pages
+        template: category
+        layout: list
+        info: "{{ page.children.count }} projets"
   - width: 1/3
     fields:
-      featuredimage:
-        label: Image d'accueil
-        type: files
+      featuredproject:
+        label: Projet en vedette (page d'accueil)
+        type: pages
         max: 1
+        query: site.find('home').index.filterBy('template', 'project')
+        help: Ce projet sera affiché sur la page d'accueil

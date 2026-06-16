@@ -2,7 +2,9 @@ Title: Sofa
 
 ----
 
-Text: Lokal int janvier 2008.
+Text:
+
+Lokal int janvier 2008.
 
 Les spectateurs regardent par la fenêtre du kiosque.
 
@@ -20,3 +22,4 @@ Year: 2008
 
 ----
 
+Uuid: y8kroxcdmhojyhhj

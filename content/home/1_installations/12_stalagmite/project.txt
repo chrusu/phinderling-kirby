@@ -2,7 +2,9 @@ Title: Stalagmite
 
 ----
 
-Text:  
+Text:
+
+ 
 
 Installation ultra-minimaliste, soit l’image d’une goutte qui enfle très lentement, se détache et tombe… vers le haut
 
@@ -36,3 +38,4 @@ Year: 2024
 
 ----
 
+Uuid: 7xmvoggfxujyrhd3

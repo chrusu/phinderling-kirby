@@ -2,7 +2,9 @@ Title: Vertiges
 
 ----
 
-Text:  Cette installation regroupe 3 éléments
+Text:
+
+ Cette installation regroupe 3 éléments
 
 En projection (et en 3D), directement sur le mur, on voit une curieuse forme, un peu brillante. Avec une manette on peut la manipuler, la tourner dans tous les sens. Sur une des faces, on peut lire GRENZPUNKT LIMITE. C'est un point de marquage du cadastre de la ville de Bienne. Cet objet a été scanné et traité en 3D. Les lunettes d'approche à disposition, qui permettent donc de surveiller la frontière, font aussi office de lunettes 3D.
 
@@ -36,3 +38,4 @@ Year: 2017
 
 ----
 
+Uuid: bz4zvbnufeac7nvx

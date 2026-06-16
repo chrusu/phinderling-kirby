@@ -2,7 +2,9 @@ Title: Init - Le Penseur
 
 ----
 
-Text:  
+Text:
+
+ 
 
 Dessiner avec des pensées.
 
@@ -24,3 +26,4 @@ Year: 2013
 
 ----
 
+Uuid: rhcd6nbtvk9mgecd

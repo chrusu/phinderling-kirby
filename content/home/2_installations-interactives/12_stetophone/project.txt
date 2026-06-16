@@ -2,7 +2,9 @@ Title: Stétophone
 
 ----
 
-Text:  
+Text:
+
+ 
 
 Temple allemand du Ring à Bienne
 
@@ -22,3 +24,4 @@ Year: 2013
 
 ----
 
+Uuid: jqzq3co6tisn30a5

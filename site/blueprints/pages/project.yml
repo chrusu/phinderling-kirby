@@ -1,37 +1,46 @@
 title: Projet
 icon: image
+
 options:
   changeSlug: true
+  changeStatus: true
+  delete: true
 
 columns:
   - width: 2/3
     sections:
+      gallery:
+        label: Images
+        type: files
+        layout: cards
+        size: small
+        image:
+          cover: true
       content:
         type: fields
         fields:
           text:
             label: Description
             type: textarea
-            size: large
+            size: medium
+            buttons:
+              - bold
+              - italic
+              - link
+  - width: 1/3
+    sections:
+      meta:
+        type: fields
+        fields:
           year:
             label: Année
             type: text
             width: 1/2
           materials:
-            label: Matériaux / Technique
+            label: Matériaux
             type: text
             width: 1/2
           video:
-            label: Lien vidéo (Dailymotion)
+            label: Lien vidéo
             type: url
-
-  - width: 1/3
-    sections:
-      gallery:
-        label: Images
-        type: files
-        template: image
-        layout: cards
-        size: small
-        image:
-          cover: true
+            help: URL Dailymotion ou Vimeo

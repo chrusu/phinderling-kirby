@@ -2,7 +2,9 @@ Title: Horizon des émotions
 
 ----
 
-Text:  
+Text:
+
+ 
 
 Le mouvement de la balançoire active les 2 "poumons", on entend un souffle, inspiration-expiration au rythme lent du pendule
 
@@ -12,3 +14,4 @@ Year: 2024
 
 ----
 
+Uuid: zp8fvjdtip4nyjw0
