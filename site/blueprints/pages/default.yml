@@ -1,0 +1,5 @@
+title: Page
+fields:
+  text:
+    label: Contenu
+    type: textarea

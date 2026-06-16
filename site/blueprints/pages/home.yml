@@ -1,0 +1,17 @@
+title: Accueil
+options:
+  changeSlug: false
+  changeStatus: false
+  delete: false
+columns:
+  - width: 2/3
+    fields:
+      intro:
+        label: Introduction
+        type: textarea
+  - width: 1/3
+    fields:
+      featuredimage:
+        label: Image d'accueil
+        type: files
+        max: 1

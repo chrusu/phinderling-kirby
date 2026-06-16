@@ -1,0 +1,26 @@
+Title: Love
+
+----
+
+Text:  
+
+J'ai écrit LOVE en code-barre international 3 9.
+
+Et si vous entrez en (sur) LOVE, voilà que LOVE se met à luire - puis pâlit lentement, souvenir déjà.
+
+Description: un ensemble de lames sont déposées sur le sol (8p. de 200x30cm et 12p. de 200x10cm), formant une écriture (code-barre 3 9), signifiant LOVE, d'une longueur totale d'environs 7m. Ces lames en tôle sont enduites d'une peinture phosphorescente, restituent donc la lumière dans la nuit. Le tout est vivement éclairé, mais les lampes s'éteignent si quelqu'un pénètre la zone de l'écriture. Celle-ci devient alors le seul élément visible, luisant doucement, avant de s'effacer petit à petit.
+
+Si plus rien ne bouge, les lampes s'activent après 30 à 40 secondes.
+
+ 
+
+ 
+
+ 
+
+----
+
+Year: 2013
+
+----
+

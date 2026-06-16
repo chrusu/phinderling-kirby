@@ -1,0 +1,18 @@
+title: Site
+columns:
+  - width: 1/2
+    fields:
+      title:
+        label: Titre du site
+        type: text
+      description:
+        label: Description
+        type: textarea
+  - width: 1/2
+    fields:
+      author:
+        label: Artiste
+        type: text
+      email:
+        label: Email
+        type: email

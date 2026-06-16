@@ -1,0 +1,8 @@
+title: Erreur
+options:
+  changeSlug: false
+  changeStatus: false
+  delete: false
+fields:
+  text:
+    type: textarea

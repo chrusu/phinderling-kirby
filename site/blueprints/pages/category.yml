@@ -1,0 +1,27 @@
+title: Catégorie
+icon: grid-bottom
+options:
+  changeSlug: true
+columns:
+  - width: 2/3
+    fields:
+      intro:
+        label: Introduction
+        type: textarea
+        size: medium
+  - width: 1/3
+    fields:
+      cover:
+        label: Image de couverture
+        type: files
+        max: 1
+
+sections:
+  projects:
+    label: Projets
+    type: pages
+    template: project
+    layout: cards
+    size: medium
+    image:
+      cover: true
