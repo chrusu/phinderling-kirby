@@ -26,6 +26,12 @@ Icon
 # NEVER publish these files via Git!
 # -------------SECURITY-------------
 
+# Content folder
+# (managed separately, contains user data and images)
+# ---------------
+
+/content/
+
 # Cache Files
 # ---------------
 
