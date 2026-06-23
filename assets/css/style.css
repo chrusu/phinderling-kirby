@@ -290,17 +290,112 @@ img {
   margin-bottom: 1rem;
 }
 
+/* Hamburger button – hidden on desktop */
+.nav-toggle {
+  display: none;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .layout {
     flex-direction: column;
   }
 
+  /* Sidebar becomes a top bar */
   .sidebar {
     position: relative;
     width: 100%;
     min-height: auto;
-    padding: 1.5rem;
+    max-height: none;
+    padding: 1rem 1.5rem;
+    overflow: visible;
+  }
+
+  /* Header row: logo + hamburger side-by-side */
+  .site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+
+  /* Hamburger button */
+  .nav-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 28px;
+    height: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    flex-shrink: 0;
+  }
+
+  .nav-toggle span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: var(--color-text);
+    border-radius: 2px;
+    transition:
+      opacity 0.2s,
+      transform 0.2s;
+    transform-origin: center;
+  }
+
+  /* Animate into X when open */
+  .nav-toggle.is-open span:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+  }
+  .nav-toggle.is-open span:nth-child(2) {
+    opacity: 0;
+  }
+  .nav-toggle.is-open span:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+  }
+
+  /* Nav hidden by default on mobile */
+  .main-nav {
+    display: none;
+    padding-top: 1rem;
+  }
+
+  .main-nav.is-open {
+    display: block;
+  }
+
+  /* Spacious touch targets for nav items */
+  .nav-category {
+    margin-bottom: 0;
+  }
+
+  .nav-category-title {
+    padding: 0.75rem 0;
+    font-size: 1rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .nav-projects {
+    margin: 0;
+    padding-left: 1rem;
+  }
+
+  .nav-projects li {
+    margin: 0;
+  }
+
+  .nav-projects a {
+    display: block;
+    padding: 0.65rem 0;
+    font-size: 0.95rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  /* Hide the sidebar footer inside the collapsed nav area */
+  .site-footer {
+    padding-top: 1rem;
   }
 
   .content {
@@ -311,13 +406,5 @@ img {
   .featured-project {
     height: auto;
     min-height: 50vh;
-  }
-
-  .nav-projects {
-    display: none;
-  }
-
-  .nav-category.is-open .nav-projects {
-    display: block;
   }
 }

@@ -14,9 +14,14 @@
         <a href="<?= $site->url() ?>" class="logo"><?= $site
     ->title()
     ->html() ?></a>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
       </header>
 
-      <nav class="main-nav">
+      <nav class="main-nav" id="main-nav">
         <?php
         $home = $site->find("home");
         $categories = $home ? $home->children()->listed() : [];
@@ -58,3 +63,15 @@
     </aside>
 
     <main class="content">
+<script>
+  (function () {
+    var btn = document.querySelector('.nav-toggle');
+    var nav = document.getElementById('main-nav');
+    if (!btn || !nav) return;
+    btn.addEventListener('click', function () {
+      var open = nav.classList.toggle('is-open');
+      btn.classList.toggle('is-open', open);
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  })();
+</script>
