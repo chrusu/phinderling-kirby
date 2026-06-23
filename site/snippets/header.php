@@ -56,9 +56,7 @@
 
       <footer class="site-footer">
         <p>&copy; <?= date("Y") ?> <?= $site->author()->html() ?></p>
-        <?php if ($site->email()->isNotEmpty()): ?>
-        <p><a href="mailto:<?= $site->email() ?>"><?= $site->email() ?></a></p>
-        <?php endif; ?>
+
       </footer>
     </aside>
 
