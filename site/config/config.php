@@ -1,9 +1,6 @@
 <?php
 return [
-    "debug" => true,
+    "debug" => false,
     "languages" => false,
-    "panel" => [
-        "install" => true,
-    ],
     "home" => "home",
 ];
